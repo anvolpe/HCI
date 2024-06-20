@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="calculator">
+        <div id="calc-count">Count: 0</div>
+        <main>
+            <h1>Calculator</h1>
+            <div class="buttons">
+                <article class="box">
+                    <div class="row">
+                        <a><p data-value="1">1</p></a>
+                        <a><p data-value="2">2</p></a>
+                        <a><p data-value="3">3</p></a>
+                        <a><p data-value="4">4</p></a>
+                    </div>
+                    <div class="row">
+                        <a><p data-value="5">5</p></a>
+                        <a><p data-value="6">6</p></a>
+                        <a><p data-value="7">7</p></a>
+                        <a><p data-value="8">8</p></a>
+                    </div>
+                    <div class="row">
+                        <a><p data-value=".">.</p></a>
+                        <a><p data-value="9">9</p></a>
+                        <a><p data-value="0">0</p></a>
+                        <a><p data-value="*">*</p></a>
+                    </div>
+                </article>
+                <div class="row">
+                    <a><p class="equals" data-value="=">=</p></a>
+                </div>
+            </div>
+            <div class="term">Calculate: 
+                <p class="block" id="blockID"></p>
+            </div>
+            <article class="bar">
+                <p id="barID"></p>
+            </article>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
